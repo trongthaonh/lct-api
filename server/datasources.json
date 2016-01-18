@@ -4,14 +4,14 @@
     "connector": "memory"
   },
   "mongoDS": {
-    "name": "mongoDS",
-    "connector": "mongodb",
     "host": "localhost",
     "port": 27017,
-    "database": "lct-api"
+    "database": "lct-api",
+    "name": "mongoDS",
+    "connector": "mongodb"
   },
   "systemStorage": {
-    "name" : "systemStorage",
+    "name": "systemStorage",
     "provider": "filesystem",
     "connector": "loopback-component-storage",
     "root": "client/uploads"
