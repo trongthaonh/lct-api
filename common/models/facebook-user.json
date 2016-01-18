@@ -1,0 +1,30 @@
+{
+  "name": "FacebookUser",
+  "plural": "FacebookUsers",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "fbId": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "accessToken": {
+      "type": "string"
+    },
+    "fullName": {
+      "type": "string"
+    },
+    "gender": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

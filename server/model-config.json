@@ -35,5 +35,9 @@
   "container": {
     "dataSource": "systemStorage",
     "public": true
+  },
+  "FacebookUser": {
+    "dataSource": "mongoDS",
+    "public": true
   }
 }
